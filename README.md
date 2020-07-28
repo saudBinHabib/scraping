@@ -9,6 +9,7 @@ Useage
 ::
     git clone git@github.com:saudBinHabib/scraping
     cd scraping
+    mkdir data
     pip install -r requirements/dev.txt
     
     #check crontab for existing cron tasks
