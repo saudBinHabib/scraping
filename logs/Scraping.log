@@ -1,0 +1,20 @@
+INFO:__main__:File Downloaded: http://data.gdeltproject.org/gdeltv2/20200728173000.gkg.csv.zip 
+INFO:__main__:File Unzipped.
+INFO:__main__:Data Frame Created.
+INFO:__main__:Deleted all the files from the data directory.
+INFO:__main__:Parquet File reading completed.
+INFO:__main__:Completed The Whole Process.
+INFO:__main__:File Downloaded: http://data.gdeltproject.org/gdeltv2/20200728174500.gkg.csv.zip 
+INFO:__main__:File Unzipped.
+INFO:__main__:Data Frame Created.
+INFO:__main__:Deleted all the files from the data directory.
+INFO:__main__:Parquet File reading completed.
+INFO:__main__:Completed The Whole Process.
+INFO:__main__:Data is already Stored.
+INFO:__main__:Completed The Whole Process.
+INFO:__main__:Data is already Stored.
+INFO:__main__:Completed The Whole Process.
+INFO:__main__:Data is already Stored.
+INFO:__main__:Completed The Whole Process.
+INFO:__main__:Data is already Stored.
+INFO:__main__:Completed The Whole Process.
