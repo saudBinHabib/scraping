@@ -7,7 +7,7 @@ Useage
 ~~~~~~~
 
 ::
-    git clone git@github.com:saudBinHabib/scraping
+    git clone git@github.com:saudBinHabib/scraping.git
     cd scraping
     mkdir data
     pip install -r requirements/dev.txt
