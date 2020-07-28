@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.1
+pandas==0.24.2
+wget==3.2
+zipfile37==0.1.3
