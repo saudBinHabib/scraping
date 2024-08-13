@@ -62,10 +62,10 @@ class Scraping:
         df = pd.DataFrame()
         try:
             for data_file in csv_files:
-                df_sub = pd.read_csv(data_file, error_bad_lines=False, sep='\t')
+                df_sub = pd.read_csv(data_file, sep='\t')
                 columns_name = ['col_' + str(counter) for counter in range(df_sub.shape[1])]
-                df_sub = pd.read_csv(data_file, names=columns_name, error_bad_lines=False, sep='\t')
-                df = df.append(df_sub)
+                df_sub = pd.read_csv(data_file, names=columns_name, sep='\t')
+                df = pd.concat([df, df_sub], ignore_index=True)
             logger.info('Data Frame Created.')
             return df
         except IndexError:
